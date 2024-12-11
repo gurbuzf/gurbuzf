@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Faruk Gürbüz</h1>
 
-- 📫 How to reach me **gurbuzfrkATgmailDOTcom**
+- 📫 Want to reach me out? Use this **gurbuzfrkATgmailDOTcom**
 
 </p>
 
