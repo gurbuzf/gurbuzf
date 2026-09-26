@@ -4,7 +4,6 @@
 Fetches public profile data from the GitHub GraphQL API and renders, in a light
 and a dark variant each:
 
-  * stats.svg      - headline numbers (contributions, commits, PRs, stars, streak)
   * activity.svg   - weekly contributions over the last 12 months
   * languages.svg  - top languages across owned repositories (by code size)
 
@@ -191,24 +190,6 @@ def sample_profile() -> dict:
     }
 
 
-def streaks(days: list[tuple[dt.date, int]]) -> tuple[int, int]:
-    """Return (current, longest) daily contribution streaks."""
-    longest = run = 0
-    for _, count in days:
-        run = run + 1 if count else 0
-        longest = max(longest, run)
-    # Today's streak is still alive if today simply has no contributions yet.
-    trailing = list(days)
-    if trailing and trailing[-1][1] == 0:
-        trailing.pop()
-    current = 0
-    for _, count in reversed(trailing):
-        if not count:
-            break
-        current += 1
-    return current, longest
-
-
 # --------------------------------------------------------------------------- svg helpers
 
 
@@ -244,8 +225,6 @@ def svg_document(width: int, height: int, title: str, body: str, t: dict) -> str
   .axis {{ font-size: 11px; fill: {t['text_muted']}; font-variant-numeric: tabular-nums; }}
   .label {{ font-size: 13px; fill: {t['text_primary']}; }}
   .value {{ font-size: 12px; fill: {t['text_secondary']}; font-variant-numeric: tabular-nums; }}
-  .tile-label {{ font-size: 12px; fill: {t['text_secondary']}; }}
-  .tile-value {{ font-size: 26px; font-weight: 600; fill: {t['text_primary']}; }}
   .annot {{ font-size: 11px; font-weight: 600; fill: {t['text_primary']}; }}
 </style>
 <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="10" fill="{t['surface']}" stroke="{t['border']}"/>
@@ -262,37 +241,6 @@ def header(title: str, subtitle: str) -> str:
 
 
 # --------------------------------------------------------------------------- charts
-
-
-def render_stats(p: dict, t: dict) -> str:
-    current, longest = streaks(p["days"])
-    tiles = [
-        ("Contributions (last year)", compact(p["contributions"])),
-        ("Commits", compact(p["commits"])),
-        ("Pull requests", compact(p["prs"])),
-        ("Stars earned", compact(p["stars"])),
-        ("Public repos", compact(p["repos"])),
-        ("Current streak", f"{current} d"),
-        ("Longest streak", f"{longest} d"),
-        ("Followers", compact(p["followers"])),
-    ]
-    cols, tile_h, top, pad = 4, 72, 76, 24
-    tile_w = (WIDTH - 2 * pad) / cols
-    rows = (len(tiles) + cols - 1) // cols
-    height = top + rows * tile_h + 12
-    parts = [header("GitHub at a glance", f"@{p['login']} · activity over the last 12 months")]
-    for i, (label, value) in enumerate(tiles):
-        col, row = i % cols, i // cols
-        x = pad + col * tile_w
-        y = top + row * tile_h
-        if col:
-            parts.append(
-                f'<line x1="{x:.1f}" y1="{y + 8}" x2="{x:.1f}" y2="{y + tile_h - 16}" stroke="{t["grid"]}"/>'
-            )
-        tx = x + (16 if col else 0)
-        parts.append(f'<text class="tile-label" x="{tx:.1f}" y="{y + 16}">{escape(label)}</text>')
-        parts.append(f'<text class="tile-value" x="{tx:.1f}" y="{y + 48}">{escape(value)}</text>')
-    return svg_document(WIDTH, height, "GitHub stats", "\n".join(parts), t)
 
 
 def weekly_totals(days: list[tuple[dt.date, int]], weeks: int = 52) -> list[tuple[dt.date, int]]:
@@ -436,7 +384,6 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
     for mode, theme in THEMES.items():
         suffix = "" if mode == "light" else "-dark"
-        (out / f"stats{suffix}.svg").write_text(render_stats(profile, theme))
         (out / f"activity{suffix}.svg").write_text(render_activity(profile, theme))
         (out / f"languages{suffix}.svg").write_text(render_languages(profile, theme, exclude))
     print(f"Wrote charts for @{profile['login']} to {out}/")

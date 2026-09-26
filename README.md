@@ -15,9 +15,9 @@
 
 ### 🌊 About me
 
-- 💧 Engineer at the **Turkish Water Institute (SUEN)**: remote sensing for hydrological and agricultural analysis, WaPOR-based evapotranspiration assessments and scalable geospatial workflows
-- 🌧️ Previously at **DSİ**, coordinating nationwide studies for an observation-based flood early warning system, and **Hydrological Advisor of Türkiye at the WMO** (2022–2023)
-- 🎓 M.Sc. in Civil & Environmental Engineering (Water Resources) from the **University of Iowa**, where I built physics-based and machine-learning models for flood forecasting at IIHR
+- 💧 Engineer at the **Turkish Water Institute (SUEN)**: remote sensing for hydrological and agricultural analysis and scalable geospatial workflows
+- 🌧️ Previously at **DSİ (Turkish State Hydraulic Works)**
+- 🎓 M.Sc. in Civil & Environmental Engineering (Water Resources) from the **University of Iowa**
 - 🛠️ I like turning hydrology into tools: watershed delineation, reservoir flood routing and QGIS plugins
 - 🤖 Lately also building with AI coding agents and LLM tools
 
@@ -54,7 +54,6 @@
   <img src="https://img.shields.io/badge/Rasterio-2a78d6?style=flat" alt="Rasterio"/>
   <img src="https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=flat&logo=googleearth&logoColor=white" alt="Google Earth Engine"/>
   <img src="https://img.shields.io/badge/Leaflet-199900?style=flat&logo=leaflet&logoColor=white" alt="Leaflet"/>
-  <img src="https://img.shields.io/badge/WaPOR-0B6E4F?style=flat" alt="WaPOR"/>
 </p>
 
 **🌊 Hydrology & Water Resources**
@@ -66,14 +65,15 @@
   <img src="https://img.shields.io/badge/Watershed_Delineation-1c5cab?style=flat" alt="Watershed delineation"/>
   <img src="https://img.shields.io/badge/Reservoir_Routing-1c5cab?style=flat" alt="Reservoir routing"/>
   <img src="https://img.shields.io/badge/Flood_Frequency_Analysis-1c5cab?style=flat" alt="Flood frequency analysis"/>
-  <img src="https://img.shields.io/badge/Evapotranspiration-1c5cab?style=flat" alt="Evapotranspiration"/>
 </p>
 
-**🎨 Design, Docs & Web**
+**🎨 Design, Docs & Tools**
 
 <p>
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" alt="Figma"/>
   <img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=flat&logo=adobeillustrator&logoColor=white" alt="Adobe Illustrator"/>
+  <img src="https://img.shields.io/badge/Adobe_InDesign-FF3366?style=flat&logo=adobeindesign&logoColor=white" alt="Adobe InDesign"/>
+  <img src="https://img.shields.io/badge/Inkscape-000000?style=flat&logo=inkscape&logoColor=white" alt="Inkscape"/>
   <img src="https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white" alt="LaTeX"/>
   <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" alt="Markdown"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
@@ -81,45 +81,17 @@
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js"/>
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
+  <img src="https://img.shields.io/badge/Pardus-1B8A3A?style=flat" alt="Pardus"/>
 </p>
 
 ---
 
-### 🚀 Featured projects
-
-| Project | What it does | Built with |
-|---|---|---|
-| [**WATT**](https://github.com/gurbuzf/watt-watershed-delineation-tool) | Batch watershed delineation: give it a DEM and pour points, get drainage areas for every location | Python · GDAL · GeoPandas |
-| [**pyHLM**](https://github.com/gurbuzf/pyHLM) | Physics-based distributed Hillslope-Link Model, with a genetic algorithm for small-reservoir operations | NumPy · SciPy |
-| [**reservoir_creator**](https://github.com/gurbuzf/reservoir_creator) | QGIS plugin for on-the-fly inundation mapping of real or hypothetical dams | PyQGIS · Qt |
-| [**GRU Seq2seq Attention**](https://github.com/gurbuzf/GRU-based-Seq2seq-Attention-Model) | Sequence-to-sequence model with attention for flood prediction from hydro-meteorological time series | Keras · TensorFlow |
-| [**doc2xlsx**](https://github.com/gurbuzf/DSI_doc2xlsx) | Extracts tables from semi-structured Word reports into clean Excel | python-docx · openpyxl |
-| [**Hydrology Lab**](https://farukgurbuz.com/lab) | Interactive watershed delineation and dam flood-routing playgrounds in the browser | TypeScript · Next.js |
-
----
-
-### 📚 Selected publications
-
-- **Gurbuz et al. (2024)**: Using a physics-based hydrological model and storm transposition to investigate machine-learning algorithms for streamflow prediction. *Journal of Hydrology*. [doi](https://doi.org/10.1016/j.jhydrol.2023.130504)
-- **Tofighi, Gurbuz et al. (2025)**: A Data-Driven Framework for Flood Mitigation: Transformer-Based Damage Prediction and Reinforcement Learning for Reservoir Operations. *Water*. [doi](https://doi.org/10.3390/w17203024)
-- **Tofighi, Gurbuz et al. (2025)**: Advancing Machine Learning-Based Streamflow Prediction Through Event Greedy Selection, Asymmetric Loss Function, and Rainfall Forecasting Uncertainty. *Applied Sciences*. [doi](https://doi.org/10.3390/app152111656)
-- **Tosunoglu, Gurbuz et al. (2020)**: Multivariate modeling of flood characteristics using Vine copulas. *Environmental Earth Sciences*. [doi](https://doi.org/10.1007/s12665-020-09199-6)
-
-➡️ Full list on [farukgurbuz.com/publications](https://farukgurbuz.com/publications)
-
----
-
-### 📊 GitHub stats
+### 📊 GitHub activity
 
 <!-- Charts are generated by .github/workflows/profile-charts.yml and published to the `output` branch. -->
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gurbuzf/gurbuzf/output/stats-dark.svg">
-    <img src="https://raw.githubusercontent.com/gurbuzf/gurbuzf/output/stats.svg" alt="GitHub stats: contributions, commits, pull requests, stars and streaks" width="100%">
-  </picture>
-</p>
 
 <p align="center">
   <picture>
