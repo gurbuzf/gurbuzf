@@ -1,90 +1,112 @@
-<h1 align="center">👋 Hi, I'm Faruk!</h1>
+<h1 align="center">👋 Hi, I'm Faruk Gürbüz</h1>
 
 <p align="center">
-  <strong>Developer · GIS enthusiast · building with Agentic AI</strong><br>
-  I turn geospatial data and LLM-powered agents into practical tools.
+  <strong>Water Resources Engineer · Geospatial Data Scientist</strong><br>
+  Hydrological modeling, environmental remote sensing and open-source scientific tools. Based in İstanbul, Türkiye.
 </p>
 
 <p align="center">
-  <a href="https://github.com/gurbuzf"><img src="https://img.shields.io/github/followers/gurbuzf?label=Followers&style=flat&logo=github&color=2a78d6" alt="GitHub followers"/></a>
-  <img src="https://komarev.com/ghpvc/?username=gurbuzf&style=flat&color=2a78d6&label=Profile+views" alt="Profile views"/>
+  <a href="https://farukgurbuz.com"><img src="https://img.shields.io/badge/Website-farukgurbuz.com-2a78d6?style=flat&logo=googlechrome&logoColor=white" alt="Website"/></a>
+  <a href="https://www.linkedin.com/in/faruk-gurbuz"><img src="https://img.shields.io/badge/LinkedIn-faruk--gurbuz-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:gurbuzfrk@gmail.com"><img src="https://img.shields.io/badge/Email-gurbuzfrk@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
-### 🧠 About me
+### 🌊 About me
 
-- 🤖 Building **agentic AI** systems: tool-using LLM agents, multi-agent workflows, RAG pipelines and MCP servers
-- 🗺️ Working with **GIS**: spatial analysis, mapping and geospatial data pipelines
-- 🐍 Mostly writing **Python**, with JavaScript for the web side
-- 🌱 Always learning, currently exploring evaluation and orchestration of autonomous agents
+- 💧 Engineer at the **Turkish Water Institute (SUEN)**: remote sensing for hydrological and agricultural analysis, WaPOR-based evapotranspiration assessments and scalable geospatial workflows
+- 🌧️ Previously at **DSİ**, coordinating nationwide studies for an observation-based flood early warning system, and **Hydrological Advisor of Türkiye at the WMO** (2022–2023)
+- 🎓 M.Sc. in Civil & Environmental Engineering (Water Resources) from the **University of Iowa**, where I built physics-based and machine-learning models for flood forecasting at IIHR
+- 🛠️ I like turning hydrology into tools: watershed delineation, reservoir flood routing and QGIS plugins
+- 🤖 Lately also building with AI coding agents and LLM tools
 
 ---
 
 ### 🛠️ Skills
 
-**🤖 Agentic AI & LLMs**
-
-<p>
-  <img src="https://img.shields.io/badge/Agentic_AI-4a3aa7?style=flat&logo=robotframework&logoColor=white" alt="Agentic AI"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" alt="LangChain"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langgraph&logoColor=white" alt="LangGraph"/>
-  <img src="https://img.shields.io/badge/CrewAI-FF5A50?style=flat&logo=crewai&logoColor=white" alt="CrewAI"/>
-  <img src="https://img.shields.io/badge/LlamaIndex-000000?style=flat&logo=llamaindex&logoColor=white" alt="LlamaIndex"/>
-  <img src="https://img.shields.io/badge/MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol"/>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat&logo=claude&logoColor=white" alt="Claude"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI"/>
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white" alt="Ollama"/>
-  <img src="https://img.shields.io/badge/RAG-2a78d6?style=flat" alt="RAG"/>
-  <img src="https://img.shields.io/badge/Prompt_Engineering-1baf7a?style=flat" alt="Prompt Engineering"/>
-</p>
-
-**🧪 Machine Learning & Data**
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter"/>
-</p>
-
-**🗺️ GIS & Geospatial**
-
-<p>
-  <img src="https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis&logoColor=white" alt="QGIS"/>
-  <img src="https://img.shields.io/badge/PostGIS-336791?style=flat&logo=postgresql&logoColor=white" alt="PostGIS"/>
-  <img src="https://img.shields.io/badge/GeoPandas-139C5A?style=flat&logo=pandas&logoColor=white" alt="GeoPandas"/>
-  <img src="https://img.shields.io/badge/GDAL-5CAE58?style=flat&logo=osgeo&logoColor=white" alt="GDAL"/>
-  <img src="https://img.shields.io/badge/Leaflet-199900?style=flat&logo=leaflet&logoColor=white" alt="Leaflet"/>
-  <img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat&logo=openstreetmap&logoColor=white" alt="OpenStreetMap"/>
-</p>
-
-**💻 Languages & Web**
+**💻 Data & Code**
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white" alt="pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat&logo=scipy&logoColor=white" alt="SciPy"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white" alt="Keras"/>
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/HPC-4a3aa7?style=flat" alt="High-performance computing"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/Agentic_AI-52514e?style=flat" alt="Agentic AI"/>
 </p>
 
-**🧰 Databases, Tools & Platforms**
+**🗺️ GIS & Remote Sensing**
 
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white" alt="Ubuntu"/>
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=flat&logo=windows&logoColor=white" alt="Windows"/>
+  <img src="https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis&logoColor=white" alt="QGIS"/>
+  <img src="https://img.shields.io/badge/PyQGIS-589632?style=flat&logo=qgis&logoColor=white" alt="PyQGIS"/>
+  <img src="https://img.shields.io/badge/ArcGIS-2C7AC3?style=flat&logo=arcgis&logoColor=white" alt="ArcGIS"/>
+  <img src="https://img.shields.io/badge/GDAL-5CAE58?style=flat&logo=osgeo&logoColor=white" alt="GDAL"/>
+  <img src="https://img.shields.io/badge/GeoPandas-139C5A?style=flat&logo=pandas&logoColor=white" alt="GeoPandas"/>
+  <img src="https://img.shields.io/badge/Rasterio-2a78d6?style=flat" alt="Rasterio"/>
+  <img src="https://img.shields.io/badge/Google_Earth_Engine-4285F4?style=flat&logo=googleearth&logoColor=white" alt="Google Earth Engine"/>
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=flat&logo=leaflet&logoColor=white" alt="Leaflet"/>
+  <img src="https://img.shields.io/badge/WaPOR-0B6E4F?style=flat" alt="WaPOR"/>
 </p>
+
+**🌊 Hydrology & Water Resources**
+
+<p>
+  <img src="https://img.shields.io/badge/Hydrological_Modeling-1c5cab?style=flat" alt="Hydrological modeling"/>
+  <img src="https://img.shields.io/badge/Flood_Forecasting-1c5cab?style=flat" alt="Flood forecasting"/>
+  <img src="https://img.shields.io/badge/Flood_Early_Warning-1c5cab?style=flat" alt="Flood early warning"/>
+  <img src="https://img.shields.io/badge/Watershed_Delineation-1c5cab?style=flat" alt="Watershed delineation"/>
+  <img src="https://img.shields.io/badge/Reservoir_Routing-1c5cab?style=flat" alt="Reservoir routing"/>
+  <img src="https://img.shields.io/badge/Flood_Frequency_Analysis-1c5cab?style=flat" alt="Flood frequency analysis"/>
+  <img src="https://img.shields.io/badge/Evapotranspiration-1c5cab?style=flat" alt="Evapotranspiration"/>
+</p>
+
+**🎨 Design, Docs & Web**
+
+<p>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white" alt="Figma"/>
+  <img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?style=flat&logo=adobeillustrator&logoColor=white" alt="Adobe Illustrator"/>
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white" alt="LaTeX"/>
+  <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" alt="Markdown"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux"/>
+</p>
+
+---
+
+### 🚀 Featured projects
+
+| Project | What it does | Built with |
+|---|---|---|
+| [**WATT**](https://github.com/gurbuzf/watt-watershed-delineation-tool) | Batch watershed delineation: give it a DEM and pour points, get drainage areas for every location | Python · GDAL · GeoPandas |
+| [**pyHLM**](https://github.com/gurbuzf/pyHLM) | Physics-based distributed Hillslope-Link Model, with a genetic algorithm for small-reservoir operations | NumPy · SciPy |
+| [**reservoir_creator**](https://github.com/gurbuzf/reservoir_creator) | QGIS plugin for on-the-fly inundation mapping of real or hypothetical dams | PyQGIS · Qt |
+| [**GRU Seq2seq Attention**](https://github.com/gurbuzf/GRU-based-Seq2seq-Attention-Model) | Sequence-to-sequence model with attention for flood prediction from hydro-meteorological time series | Keras · TensorFlow |
+| [**doc2xlsx**](https://github.com/gurbuzf/DSI_doc2xlsx) | Extracts tables from semi-structured Word reports into clean Excel | python-docx · openpyxl |
+| [**Hydrology Lab**](https://farukgurbuz.com/lab) | Interactive watershed delineation and dam flood-routing playgrounds in the browser | TypeScript · Next.js |
+
+---
+
+### 📚 Selected publications
+
+- **Gurbuz et al. (2024)**: Using a physics-based hydrological model and storm transposition to investigate machine-learning algorithms for streamflow prediction. *Journal of Hydrology*. [doi](https://doi.org/10.1016/j.jhydrol.2023.130504)
+- **Tofighi, Gurbuz et al. (2025)**: A Data-Driven Framework for Flood Mitigation: Transformer-Based Damage Prediction and Reinforcement Learning for Reservoir Operations. *Water*. [doi](https://doi.org/10.3390/w17203024)
+- **Tofighi, Gurbuz et al. (2025)**: Advancing Machine Learning-Based Streamflow Prediction Through Event Greedy Selection, Asymmetric Loss Function, and Rainfall Forecasting Uncertainty. *Applied Sciences*. [doi](https://doi.org/10.3390/app152111656)
+- **Tosunoglu, Gurbuz et al. (2020)**: Multivariate modeling of flood characteristics using Vine copulas. *Environmental Earth Sciences*. [doi](https://doi.org/10.1007/s12665-020-09199-6)
+
+➡️ Full list on [farukgurbuz.com/publications](https://farukgurbuz.com/publications)
 
 ---
 
