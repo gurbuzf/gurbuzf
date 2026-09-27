@@ -8,7 +8,6 @@
 <p align="center">
   <a href="https://farukgurbuz.com"><img src="https://img.shields.io/badge/Website-farukgurbuz.com-2a78d6?style=flat&logo=googlechrome&logoColor=white" alt="Website"/></a>
   <a href="https://www.linkedin.com/in/faruk-gurbuz"><img src="https://img.shields.io/badge/LinkedIn-faruk--gurbuz-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:gurbuzfrk@gmail.com"><img src="https://img.shields.io/badge/Email-gurbuzfrk@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
