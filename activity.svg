@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-label="Weekly contribution activity">
+<title>Weekly contribution activity</title>
+<style>
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .title { font-size: 16px; font-weight: 600; fill: #1f2328; }
+  .subtitle { font-size: 12px; fill: #59636e; }
+  .axis { font-size: 11px; fill: #818b98; font-variant-numeric: tabular-nums; }
+  .label { font-size: 13px; fill: #1f2328; }
+  .value { font-size: 12px; fill: #59636e; font-variant-numeric: tabular-nums; }
+  .annot { font-size: 11px; font-weight: 600; fill: #1f2328; }
+</style>
+<rect x="0.5" y="0.5" width="839" height="299" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<text class="title" x="24" y="36">Contribution activity</text>
+<text class="subtitle" x="24" y="56">Contributions per week · 563 in the last 12 months · 95 this week</text>
+
+<line x1="56" y1="256.0" x2="808" y2="256.0" stroke="#d0d7de"/>
+<text class="axis" x="46" y="260.0" text-anchor="end">0</text>
+<line x1="56" y1="213.0" x2="808" y2="213.0" stroke="#eaeef2"/>
+<text class="axis" x="46" y="217.0" text-anchor="end">50</text>
+<line x1="56" y1="170.0" x2="808" y2="170.0" stroke="#eaeef2"/>
+<text class="axis" x="46" y="174.0" text-anchor="end">100</text>
+<line x1="56" y1="127.0" x2="808" y2="127.0" stroke="#eaeef2"/>
+<text class="axis" x="46" y="131.0" text-anchor="end">150</text>
+<line x1="56" y1="84.0" x2="808" y2="84.0" stroke="#eaeef2"/>
+<text class="axis" x="46" y="88.0" text-anchor="end">200</text>
+<text class="axis" x="129.7" y="276" text-anchor="middle">Dec</text>
+<text class="axis" x="188.7" y="276" text-anchor="middle">Jan 2026</text>
+<text class="axis" x="247.7" y="276" text-anchor="middle">Feb</text>
+<text class="axis" x="306.7" y="276" text-anchor="middle">Mar</text>
+<text class="axis" x="380.4" y="276" text-anchor="middle">Apr</text>
+<text class="axis" x="439.4" y="276" text-anchor="middle">May</text>
+<text class="axis" x="513.1" y="276" text-anchor="middle">Jun</text>
+<text class="axis" x="572.1" y="276" text-anchor="middle">Jul</text>
+<text class="axis" x="631.1" y="276" text-anchor="middle">Aug</text>
+<text class="axis" x="704.8" y="276" text-anchor="middle">Sep</text>
+<text class="axis" x="763.8" y="276" text-anchor="middle">Oct</text>
+<polygon points="56.0,256.0 56.0,256.0 70.7,256.0 85.5,256.0 100.2,256.0 115.0,256.0 129.7,256.0 144.5,256.0 159.2,256.0 174.0,256.0 188.7,256.0 203.5,256.0 218.2,256.0 232.9,256.0 247.7,256.0 262.4,256.0 277.2,256.0 291.9,256.0 306.7,256.0 321.4,256.0 336.2,256.0 350.9,256.0 365.6,256.0 380.4,256.0 395.1,256.0 409.9,256.0 424.6,256.0 439.4,256.0 454.1,256.0 468.9,256.0 483.6,256.0 498.4,256.0 513.1,256.0 527.8,256.0 542.6,256.0 557.3,251.7 572.1,253.4 586.8,213.0 601.6,240.5 616.3,237.1 631.1,237.9 645.8,242.2 660.5,252.6 675.3,231.9 690.0,212.1 704.8,252.6 719.5,243.1 734.3,207.8 749.0,246.5 763.8,221.6 778.5,223.3 793.3,182.0 808.0,174.3 808.0,256.0" fill="#2a78d6" fill-opacity="0.12"/>
+<polyline points="56.0,256.0 70.7,256.0 85.5,256.0 100.2,256.0 115.0,256.0 129.7,256.0 144.5,256.0 159.2,256.0 174.0,256.0 188.7,256.0 203.5,256.0 218.2,256.0 232.9,256.0 247.7,256.0 262.4,256.0 277.2,256.0 291.9,256.0 306.7,256.0 321.4,256.0 336.2,256.0 350.9,256.0 365.6,256.0 380.4,256.0 395.1,256.0 409.9,256.0 424.6,256.0 439.4,256.0 454.1,256.0 468.9,256.0 483.6,256.0 498.4,256.0 513.1,256.0 527.8,256.0 542.6,256.0 557.3,251.7 572.1,253.4 586.8,213.0 601.6,240.5 616.3,237.1 631.1,237.9 645.8,242.2 660.5,252.6 675.3,231.9 690.0,212.1 704.8,252.6 719.5,243.1 734.3,207.8 749.0,246.5 763.8,221.6 778.5,223.3 793.3,182.0 808.0,174.3" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="808.0" cy="174.3" r="4" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text class="annot" x="808.0" y="162.3" text-anchor="end">Peak · 95 (week of Oct 25)</text>
+</svg>
